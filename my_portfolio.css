@@ -1,0 +1,116 @@
+body {
+    background-color: #fdf0d5;
+    margin: 5% 15%;
+}
+
+.page-header {
+    border-bottom: 2px solid #ccc; /* Header için alt çizgi */
+    padding: 10px; /* Opsiyonel: İçerik ve sınır arasında boşluk */
+    text-align: center; /* Opsiyonel: Header içeriğini ortalama */
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+    background-color: #fdf0d5;
+    transition: color 0.3s linear;
+    gap: 2px;
+}
+
+.nav-header a:hover {
+    color: #669bbc;
+    text-decoration: underline;
+}
+
+.link-nav {
+    background-color: #fdf0d5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: black;
+
+}
+
+.first-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 0;
+}
+
+.first-title p {
+    font-size: 60px;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.div-photo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page-footer {
+    margin-top: 30px;
+    border-top: 2px solid #ccc; /* Footer için üst çizgi */
+    padding: 1px; /* Opsiyonel: İçerik ve sınır arasında boşluk */
+    text-align: center; /* Opsiyonel: Footer içeriğini ortalama */
+}
+
+.social-media {
+    margin-top: 50px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px; /* Fotoğraflar veya bağlantılar arasındaki boşluk */
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+    
+}
+
+.footer-links a {
+  text-decoration: none;
+
+    
+}
+
+.footer-links img {
+    width: 200px; /* Fotoğrafların genişliği */
+    height: 200px /* Fotoğrafların yüksekliği */
+    /*object-fit: contain;  Görüntü tamamen sığar, boş alan olabilir */
+    background-color: #f0f0f0; /* Opsiyonel: Boş alanlarda görünen arka plan rengi */
+    /*border: 1px solid #ccc;  Opsiyonel: Çerçeve stili */
+    border-radius: 5px; /* Opsiyonel: Köşeleri yuvarlamak için */
+}
+
+.footer-links img:hover {
+    transform: scale(1.1); /* İsteğe bağlı: Hover sırasında büyütme efekti */
+}
+
+
